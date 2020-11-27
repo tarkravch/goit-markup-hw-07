@@ -262,7 +262,7 @@ ul {
   border: none;
 }
 
-.main-title-button:hover, .main-title-buttonfocus {
+.main-title-button:hover, .main-title-button:focus {
   color: #2196f3;
   background-color: #ffffff;
 }
@@ -462,8 +462,11 @@ ul {
   fill: #afb1b8;
 }
 
-.team-icon:hover,
-.team-iconfocus .team-card-icon-image {
+.team-icon:hover .team-card-icon-image {
+  fill: #ffffff;
+}
+
+.team-icon:focus .team-card-icon-image {
   fill: #ffffff;
 }
 
@@ -511,10 +514,13 @@ ul {
 
 .clients-item .client-image {
   fill: #afb1b8;
-  margin: 0;
+  margin: 0 auto;
 }
 
-.clients-item:hover,
+.clients-item:hover .client-image {
+  fill: #2196f3;
+}
+
 .clients-item:focus .client-image {
   fill: #2196f3;
 }
@@ -655,12 +661,6 @@ ul {
 }
 
 .subscription-btn {
-  background-color: #2196f3;
-  width: 200px;
-  height: 50px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.875;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -668,6 +668,12 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   color: #ffffff;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -692,7 +698,10 @@ ul {
   background-color: #ffffff;
 }
 
-.subscription-btn:hover,
+.subscription-btn:hover .subscription-img {
+  fill: #2196f3;
+}
+
 .subscription-btn:focus .subscription-img {
   fill: #2196f3;
 }

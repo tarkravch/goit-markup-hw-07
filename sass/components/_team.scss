@@ -58,7 +58,9 @@
     .team-card-icon-image {
         fill: $icon-grey-color;
     }
-    &:hover,
+    &:hover .team-card-icon-image {
+        fill: $primary-white-color;
+    }
     &:focus .team-card-icon-image {
         fill: $primary-white-color;
     }

@@ -30,7 +30,9 @@
         fill: $icon-grey-color;
         margin: 0 auto;
     }
-    &:hover,
+    &:hover .client-image {
+        fill: $blue-text-color;
+    }
     &:focus .client-image {
         fill: $blue-text-color;
     }

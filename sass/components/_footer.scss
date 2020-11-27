@@ -141,7 +141,9 @@
         color: $blue-text-color;
         background-color: $primary-white-color;
     }
-    &:hover,
+    &:hover .subscription-img {
+        fill: $blue-text-color;
+    }
     &:focus .subscription-img {
         fill: $blue-text-color;
     }
