@@ -10,21 +10,21 @@
 
 .footer-logo-contacts {
     margin-right: 70px;
-    .logo-bottom {
-        color: $primary-white-color;
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-        margin-bottom: 20px;
-    }
 }
 
-.whitetext {
+.logo-bottom {
+    display: inline-block;
     color: $primary-white-color;
-    &:hover,
-    &:focus {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    &:hover {
+        color: $blue-text-color;
+    }
+    &:focus a {
         color: $blue-text-color;
     }
 }

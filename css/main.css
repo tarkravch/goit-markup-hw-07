@@ -512,17 +512,18 @@ ul {
   border-color: #2196f3;
 }
 
-.clients-item .client-image {
-  fill: #afb1b8;
-  margin: 0 auto;
-}
-
 .clients-item:hover .client-image {
   fill: #2196f3;
 }
 
 .clients-item:focus .client-image {
   fill: #2196f3;
+}
+
+.client-image {
+  display: inline-block;
+  fill: #afb1b8;
+  margin: 0;
 }
 
 .footer {
@@ -543,7 +544,8 @@ ul {
   margin-right: 70px;
 }
 
-.footer-logo-contacts .logo-bottom {
+.logo-bottom a {
+  display: inline-block;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -553,14 +555,25 @@ ul {
   margin-bottom: 20px;
 }
 
-.whitetext {
-  color: #ffffff;
-}
-
-.whitetext:hover, .whitetext:focus {
+.logo-bottom a:hover {
   color: #2196f3;
 }
 
+.logo-bottom a:focus {
+  color: #2196f3;
+}
+
+.logo-bottom a:hover + .whitetext {
+  color: #2196f3;
+}
+
+.logo-bottom a:focus + .whitetext {
+  color: #2196f3;
+}
+
+/* .whitetext {
+    color: $primary-white-color;
+} */
 .address-item {
   color: #ffffff;
   display: inline-block;
@@ -845,7 +858,7 @@ ul {
   outline: none;
 }
 
-.modal-input-field:focus .modal-icon-item {
+.modal-input-field:focus + .modal-icon-item {
   fill: #2196f3;
 }
 

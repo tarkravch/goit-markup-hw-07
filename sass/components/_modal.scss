@@ -112,7 +112,7 @@
     padding-left: 35px;
     color: #000;
     outline: none;
-    &:focus .modal-icon-item {
+    &:focus+.modal-icon-item {
         fill: $blue-text-color;
     }
     &:focus {
