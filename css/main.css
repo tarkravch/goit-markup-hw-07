@@ -480,10 +480,6 @@ ul {
   margin-bottom: 94px;
 }
 
-.clients-block a {
-  display: block;
-}
-
 .clients-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -559,21 +555,10 @@ ul {
   color: #2196f3;
 }
 
-.logo-bottom a:focus {
+.logo-bottom a:focus a {
   color: #2196f3;
 }
 
-.logo-bottom a:hover + .whitetext {
-  color: #2196f3;
-}
-
-.logo-bottom a:focus + .whitetext {
-  color: #2196f3;
-}
-
-/* .whitetext {
-    color: $primary-white-color;
-} */
 .address-item {
   color: #ffffff;
   display: inline-block;
