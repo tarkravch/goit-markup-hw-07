@@ -105,13 +105,12 @@ ul {
           justify-content: space-between;
 }
 
-.nav-con-style {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
+/* .nav-con-style {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+} */
 .nav-item {
   color: #212121;
 }
@@ -164,13 +163,6 @@ ul {
 
 .header-mail-phone:last-child {
   margin-right: 0;
-}
-
-.header-mail-phone .nav-con-style {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .header-mail-phone .contacts-item-gap {
@@ -1092,5 +1084,12 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+
+.menu, .header-mail-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 /*# sourceMappingURL=main.css.map */
